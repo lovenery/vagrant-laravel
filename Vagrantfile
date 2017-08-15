@@ -4,7 +4,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/xenial64"
 
   # config.vm.box_check_update = false
-  config.vm.synced_folder "code", "/vagrant", :group => 'www-data', mount_options: ['dmode=777','fmode=775']
+  config.vm.synced_folder "code/", "/vagrant", :group => 'www-data', mount_options: ['dmode=777','fmode=775']
 
   # Network
   # config.vm.network "forwarded_port", guest: 80, host: 8080
