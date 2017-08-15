@@ -27,6 +27,9 @@ Do not use in production.
 ```shell
 # Build project
 1. Copy `Vagrantfile` to your home directory
+  curl -O https://raw.githubusercontent.com/lovenery/vagrant-laravel/master/Vagrantfile
+  or
+  wget https://raw.githubusercontent.com/lovenery/vagrant-laravel/master/Vagrantfile
 2. Edit `config.vm.synced_folder` in `Vagrantfile` (default is `code/`)
 3. vagrant up # then make a cup of coffee!
 4. vagrant ssh
