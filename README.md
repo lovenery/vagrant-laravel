@@ -22,14 +22,15 @@ Do not use in production.
 - Composer
   - laravel/installer
 
-## Recommended Workflow
+## Recommended workflow
 
 ```shell
 # Build project
 1. Copy `Vagrantfile` to your home directory
+  # Download the newest in apt mirror.
   curl -O https://raw.githubusercontent.com/lovenery/vagrant-laravel/master/Vagrantfile
-  or
-  wget https://raw.githubusercontent.com/lovenery/vagrant-laravel/master/Vagrantfile
+  # Or faster packaged box
+  curl -O https://raw.githubusercontent.com/lovenery/vagrant-laravel/master/box/Vagrantfile
 2. Edit `config.vm.synced_folder` in `Vagrantfile` (default is `code/`)
 3. vagrant up # then make a cup of coffee!
 4. vagrant ssh
