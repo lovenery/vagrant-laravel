@@ -29,7 +29,7 @@ Do not use in production.
 1. Copy `Vagrantfile` to your home directory
   # Download the newest in apt mirror.
   curl -O https://raw.githubusercontent.com/lovenery/vagrant-laravel/master/Vagrantfile
-  # Or faster packaged box
+  # Or faster packaged box (default user/password: ubuntu/vagrant)
   curl -O https://raw.githubusercontent.com/lovenery/vagrant-laravel/master/box/Vagrantfile
 2. Edit `config.vm.synced_folder` in `Vagrantfile` (default is `code/`)
 3. vagrant up # then make a cup of coffee!
